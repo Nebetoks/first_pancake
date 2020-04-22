@@ -1,10 +1,125 @@
 html, body {
 	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: sans-serif;
 }
 
-body {
+.jumbotron {
+	height: 100%;
 	background-image: url('./page-background.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	padding: 0 20px;
+}
+
+header {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hamburger {
+	align-self: center;
+}
+
+.trip-calendar {
+position: absolute;
+right: 0;
+top: 142px;
+padding: 12px;
+
+}
+
+.trip-calendar > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.trip-calendar > ul > li {
+	margin-bottom: 12px;
+	text-align: right;
+}
+
+.trip-calendar-title,
+.trip-calendar-value {
+	display: block;
+}
+
+.trip-calendar-title {
+	font-size: 9px;
+	margin-bottom: 12px;
+}
+
+.trip-calendar-value {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.video-trigger {
+	display: flex;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+.video-trigger:hover {
+	opacity: .8;
+}
+
+.video-trigger span {
+	align-self: center;
+	margin-left: 6px;
+}
+
+.page-heading {
+	margin-bottom: 30px;
+}
+
+.page-title {
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+	max-width: 80%;
+}
+
+.lead {
+	font-size: 18px;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.cta {
+	display: flex;
+	margin-bottom: 75px;
+}
+
+.button {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 13px 26px;
+	text-decoration: none;
+}
+
+.button-main {
+background-color: #E33323;
+}
+
+.button-transparent {
+	
 }
