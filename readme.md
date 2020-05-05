@@ -1,4 +1,4 @@
 # DesignCrop!
 
 
-A design crop excercise for kodinu.lt challenge
+A JS memory game excercise for kodinu.lt challenge
