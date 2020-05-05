@@ -1,4 +1,4 @@
-# Hello world!
+# DesignCrop!
 
 
-A repo for kodinu.lt challenge
+A design crop excercise for kodinu.lt challenge
