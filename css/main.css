@@ -14,6 +14,7 @@ body {
   width: 640px;
   height: 640px;
   margin: auto;
+  margin-left: 400px;
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
