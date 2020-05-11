@@ -1,4 +1,4 @@
-# Hello world!
+# JS memory game!
 
 
-A repo for kodinu.lt challenge
+A JS memory game exercise for kodinu.lt challenge
